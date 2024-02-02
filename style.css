@@ -9,6 +9,44 @@
   font-family: "Outfit", sans-serif;
 }
 
+body {
+  background-color: var(--varLightGray);
+}
+
+main {
+  display: grid;
+  place-items: center;
+}
+
+#card {
+  text-align: center;
+  background-color: var(--varWhite);
+  width: 230px;
+  padding: 1rem;
+}
+
+#qrCodeImg {
+  width: 100%;
+}
+#cardText {
+  padding: 0 1rem 0 1rem;
+}
+
+.boldText {
+  font-weight: 700;
+}
+
+.smallText {
+  font-weight: 400;
+  font-size: small;
+  color: var(--varGrayishBlue);
+  margin: 0;
+}
+
+.roundedCorners {
+  border-radius: 15px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
